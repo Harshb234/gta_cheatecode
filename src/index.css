@@ -1,0 +1,106 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-primary: #00ff4c;
+  --color-secondary: #ff0000;
+  --color-accent: #ffcc00;
+  --color-background: #0a0a0a;
+  --color-surface: #1a1a1a;
+  --color-text: #ffffff;
+}
+
+body {
+  margin: 0;
+  font-family: 'Oswald', sans-serif;
+  background-color: var(--color-background);
+  color: var(--color-text);
+  -webkit-font-smoothing: antialiased;
+}
+
+.gta-container {
+  @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+}
+
+.gta-heading {
+  @apply font-heading text-4xl md:text-5xl lg:text-6xl font-bold;
+  text-shadow: 0 0 10px var(--color-primary),
+               0 0 20px var(--color-primary),
+               0 0 30px var(--color-primary);
+}
+
+.gta-card {
+  @apply bg-surface/80 backdrop-blur-sm border border-white/10 rounded-lg p-6 
+         transition-all duration-300 hover:border-primary/50 hover:shadow-lg;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+              0 2px 4px -1px rgba(0, 0, 0, 0.06),
+              inset 0 1px 1px rgba(255, 255, 255, 0.1);
+}
+
+.gta-button {
+  @apply inline-flex items-center justify-center px-6 py-3 rounded-md font-bold
+         text-white uppercase tracking-wider transition-all duration-300
+         bg-gradient-to-r from-primary/20 to-primary/10
+         hover:from-primary/30 hover:to-primary/20
+         border border-primary/30 hover:border-primary/50;
+  box-shadow: 0 0 10px rgba(0, 255, 76, 0.2);
+}
+
+.gta-button:hover {
+  box-shadow: 0 0 20px rgba(0, 255, 76, 0.3);
+}
+
+.gta-input {
+  @apply w-full px-4 py-3 bg-black/50 border border-white/20 rounded-md
+         text-white placeholder-gray-400 focus:outline-none focus:border-primary/50
+         transition-all duration-300;
+}
+
+.platform-badge {
+  @apply px-2 py-1 rounded text-xs font-bold uppercase tracking-wider;
+}
+
+.platform-pc {
+  @apply bg-primary/20 text-primary border border-primary/30;
+}
+
+.platform-ps {
+  @apply bg-blue-500/20 text-blue-400 border border-blue-500/30;
+}
+
+.platform-xbox {
+  @apply bg-green-500/20 text-green-400 border border-green-500/30;
+}
+
+.cheat-grid {
+  @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6;
+}
+
+.hero-gradient {
+  background: linear-gradient(135deg, 
+    rgba(0, 255, 76, 0.1) 0%,
+    rgba(0, 0, 0, 0.9) 100%
+  );
+}
+
+.loading-bar {
+  @apply fixed top-0 left-0 h-1 bg-primary;
+  box-shadow: 0 0 10px var(--color-primary);
+}
+
+/* Animations */
+@keyframes pulse-glow {
+  0%, 100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.8;
+    transform: scale(1.05);
+  }
+}
+
+.animate-pulse-glow {
+  animation: pulse-glow 2s ease-in-out infinite;
+}

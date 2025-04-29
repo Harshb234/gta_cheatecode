@@ -1,0 +1,199 @@
+{
+  "cheatcodes": [
+    {
+      "id": 1,
+      "title": "Invincibility",
+      "description": "Makes your character invulnerable to all damage for 5 minutes",
+      "effect": "You won't take damage from weapons, falls, explosions, or vehicle impacts for 5 minutes",
+      "category": "player",
+      "platforms": {
+        "pc": "PAINKILLER",
+        "ps": "RIGHT, X, RIGHT, LEFT, RIGHT, R1, RIGHT, LEFT, X, TRIANGLE",
+        "xbox": "RIGHT, A, RIGHT, LEFT, RIGHT, RB, RIGHT, LEFT, A, Y"
+      },
+      "tags": ["god mode", "immortal", "health", "survival"]
+    },
+    {
+      "id": 2,
+      "title": "Super Jump",
+      "description": "Allows your character to jump extremely high",
+      "effect": "Increases jump height by approximately 5 times normal",
+      "category": "player",
+      "platforms": {
+        "pc": "HOPTOIT",
+        "ps": "LEFT, LEFT, TRIANGLE, TRIANGLE, RIGHT, RIGHT, LEFT, RIGHT, SQUARE, R1, R2",
+        "xbox": "LEFT, LEFT, Y, Y, RIGHT, RIGHT, LEFT, RIGHT, X, RB, RT"
+      },
+      "tags": ["jump", "mobility", "movement"]
+    },
+    {
+      "id": 3,
+      "title": "Fast Run",
+      "description": "Makes your character run at super speed",
+      "effect": "Increases running speed by approximately 2 times normal",
+      "category": "player",
+      "platforms": {
+        "pc": "CATCHME",
+        "ps": "TRIANGLE, LEFT, RIGHT, RIGHT, L2, L1, SQUARE",
+        "xbox": "Y, LEFT, RIGHT, RIGHT, LT, LB, X"
+      },
+      "tags": ["speed", "mobility", "movement"]
+    },
+    {
+      "id": 4,
+      "title": "Spawn Buzzard Attack Helicopter",
+      "description": "Spawns a heavily armed Buzzard helicopter nearby",
+      "effect": "Creates a Buzzard Attack Helicopter equipped with missiles and machine guns",
+      "category": "vehicle",
+      "platforms": {
+        "pc": "BUZZOFF",
+        "ps": "CIRCLE, CIRCLE, L1, CIRCLE, CIRCLE, CIRCLE, L1, L2, R1, TRIANGLE, CIRCLE, TRIANGLE",
+        "xbox": "B, B, LB, B, B, B, LB, LT, RB, Y, B, Y"
+      },
+      "tags": ["helicopter", "air vehicle", "weapon", "military"]
+    },
+    {
+      "id": 5,
+      "title": "Spawn Comet Sports Car",
+      "description": "Spawns a Comet sports car nearby",
+      "effect": "Creates a Pfister Comet sports car for you to drive",
+      "category": "vehicle",
+      "platforms": {
+        "pc": "COMET",
+        "ps": "R1, CIRCLE, R2, RIGHT, L1, L2, X, X, SQUARE, R1",
+        "xbox": "RB, B, RT, RIGHT, LB, LT, A, A, X, RB"
+      },
+      "tags": ["car", "sports car", "pfister"]
+    },
+    {
+      "id": 6,
+      "title": "Give All Weapons",
+      "description": "Adds all weapons to your inventory",
+      "effect": "Gives you every weapon in the game with full ammo",
+      "category": "weapon",
+      "platforms": {
+        "pc": "TOOLUP",
+        "ps": "TRIANGLE, R2, LEFT, L1, X, RIGHT, TRIANGLE, DOWN, SQUARE, L1, L1, L1",
+        "xbox": "Y, RT, LEFT, LB, A, RIGHT, Y, DOWN, X, LB, LB, LB"
+      },
+      "tags": ["guns", "ammunition", "arsenal", "combat"]
+    },
+    {
+      "id": 7,
+      "title": "Max Health and Armor",
+      "description": "Restores health and armor to maximum",
+      "effect": "Refills your health bar and gives you full body armor",
+      "category": "player",
+      "platforms": {
+        "pc": "TURTLE",
+        "ps": "CIRCLE, L1, TRIANGLE, R2, X, SQUARE, CIRCLE, RIGHT, SQUARE, L1, L1, L1",
+        "xbox": "B, LB, Y, RT, A, X, B, RIGHT, X, LB, LB, LB"
+      },
+      "tags": ["health", "armor", "healing", "protection"]
+    },
+    {
+      "id": 8,
+      "title": "Spawn BMX Bike",
+      "description": "Spawns a BMX bicycle nearby",
+      "effect": "Creates a BMX bike for stunt riding",
+      "category": "vehicle",
+      "platforms": {
+        "pc": "BANDIT",
+        "ps": "LEFT, LEFT, RIGHT, RIGHT, LEFT, RIGHT, SQUARE, CIRCLE, TRIANGLE, R1, R2",
+        "xbox": "LEFT, LEFT, RIGHT, RIGHT, LEFT, RIGHT, X, B, Y, RB, RT"
+      },
+      "tags": ["bicycle", "bike", "stunts", "transport"]
+    },
+    {
+      "id": 9,
+      "title": "Lower Wanted Level",
+      "description": "Decreases your wanted level by one star",
+      "effect": "Reduces police pursuit intensity by one level",
+      "category": "wanted",
+      "platforms": {
+        "pc": "LAWYERUP",
+        "ps": "R1, R1, CIRCLE, R2, RIGHT, LEFT, RIGHT, LEFT, RIGHT, LEFT",
+        "xbox": "RB, RB, B, RT, RIGHT, LEFT, RIGHT, LEFT, RIGHT, LEFT"
+      },
+      "tags": ["police", "cops", "stars", "escape"]
+    },
+    {
+      "id": 10,
+      "title": "Raise Wanted Level",
+      "description": "Increases your wanted level by one star",
+      "effect": "Intensifies police pursuit by one level",
+      "category": "wanted",
+      "platforms": {
+        "pc": "FUGITIVE",
+        "ps": "R1, R1, CIRCLE, R2, LEFT, RIGHT, LEFT, RIGHT, LEFT, RIGHT",
+        "xbox": "RB, RB, B, RT, LEFT, RIGHT, LEFT, RIGHT, LEFT, RIGHT"
+      },
+      "tags": ["police", "cops", "stars", "pursuit"]
+    },
+    {
+      "id": 11,
+      "title": "Explosive Ammunition",
+      "description": "Makes all your bullets explode on impact",
+      "effect": "Turns all weapons into explosive variants, causing area damage",
+      "category": "weapon",
+      "platforms": {
+        "pc": "HIGHEX",
+        "ps": "RIGHT, SQUARE, X, LEFT, R1, R2, LEFT, RIGHT, RIGHT, L1, L1, L1",
+        "xbox": "RIGHT, X, A, LEFT, RB, RT, LEFT, RIGHT, RIGHT, LB, LB, LB"
+      },
+      "tags": ["explosives", "bullets", "ammunition", "destruction"]
+    },
+    {
+      "id": 12,
+      "title": "Spawn Tank",
+      "description": "Spawns a Rhino Tank nearby",
+      "effect": "Creates a heavily armored military tank with a powerful cannon",
+      "category": "vehicle",
+      "platforms": {
+        "pc": "PANZER",
+        "ps": "CIRCLE, CIRCLE, L1, CIRCLE, CIRCLE, CIRCLE, L1, L2, R1, TRIANGLE, CIRCLE, TRIANGLE",
+        "xbox": "B, B, LB, B, B, B, LB, LT, RB, Y, B, Y"
+      },
+      "tags": ["military", "tank", "army", "destruction"]
+    },
+    {
+      "id": 13,
+      "title": "Drunk Mode",
+      "description": "Makes your character appear drunk",
+      "effect": "Causes screen wobble, impaired movement, and slurred speech",
+      "category": "player",
+      "platforms": {
+        "pc": "LIQUOR",
+        "ps": "TRIANGLE, RIGHT, RIGHT, LEFT, RIGHT, SQUARE, CIRCLE, LEFT",
+        "xbox": "Y, RIGHT, RIGHT, LEFT, RIGHT, X, B, LEFT"
+      },
+      "tags": ["drunk", "impaired", "vision", "effects"]
+    },
+    {
+      "id": 14,
+      "title": "Slow Motion",
+      "description": "Slows down game time",
+      "effect": "Reduces gameplay speed by approximately 50%",
+      "category": "world",
+      "platforms": {
+        "pc": "SLOWMO",
+        "ps": "TRIANGLE, LEFT, RIGHT, RIGHT, SQUARE, R2, R1",
+        "xbox": "Y, LEFT, RIGHT, RIGHT, X, RT, RB"
+      },
+      "tags": ["time", "speed", "matrix", "bullet time"]
+    },
+    {
+      "id": 15,
+      "title": "Change Weather",
+      "description": "Cycles through different weather patterns",
+      "effect": "Allows you to change the current weather conditions",
+      "category": "world",
+      "platforms": {
+        "pc": "MAKEITRAIN",
+        "ps": "R2, X, L1, L1, L2, L2, L2, SQUARE",
+        "xbox": "RT, A, LB, LB, LT, LT, LT, X"
+      },
+      "tags": ["rain", "sun", "storm", "environment"]
+    }
+  ]
+}
